@@ -1,0 +1,64 @@
+.btn {
+    border-radius: 0;
+}
+
+body, html {
+    height: 100%;
+    letter-spacing: 0.5px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+.centralizar {
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    margin-bottom: 6vh;
+}
+
+input {
+    margin: 0 !important;
+    border: inherit !important;
+    border-bottom: 1px solid #292929 !important;
+}
+
+label {
+    margin: 0;
+}
+
+.redes-sociais {
+    margin-top: 3vh;
+}
+
+
+/* traço entre texto */
+.linha::after {
+    content: "";
+    display: inline-block;
+    border-top: solid 1px black;
+    width: 60px;
+    height: 1px;
+    top: 53.5%;
+    position: absolute;
+    right: 1px;
+}
+
+.linha::before {
+    content: "";
+    display: inline-block;
+    border-top: solid 1px black;
+    width: 60px;
+    height: 1px;
+    top: 53.5%;
+    position: absolute;
+    left: -1px;
+}
+
+.rodape {
+    margin-top: 5vh;
+}

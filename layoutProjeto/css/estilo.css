@@ -1,0 +1,174 @@
+.bg-escuro {
+    background-color: #292929 !important;
+}
+
+.bg-claro {
+    background-color: rgb(211, 211, 211) !important;
+}
+
+.menu-esquerdo {
+    height: 100vh;
+    /* min-height: 89vh; */
+    /* margin-left: -2vh; */
+    background-color: #494949;
+    color: #fff;
+    /* min-width: 50px; */
+    
+    /* menu esquerdo position fixed - obs: está ficando quebrado o layout*/
+    /* position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0; */
+}
+
+.menu-direito {
+    background-color: #595959;
+    color: #fff;
+}
+
+.menu-esquerdo {
+    background-color: #393939;
+}
+
+.menu-esquerdo>.list-group a {
+    background-color: inherit !important;
+    border: inherit;
+    color: #aaa;
+    font-size: 15pt;
+}
+
+.menu-esquerdo>.list-group a:hover {
+    color: #fff;
+}
+
+.texto-cadastro, .texto-lista {
+    margin: 5vh 0vh 5vh 0vh;
+}
+
+.formulario input {
+    border: inherit;
+    border-bottom: 1px solid #ccc;
+}
+
+.formulario input:focus {
+    border-bottom: 1px solid #ccc;
+}
+
+.img-circle {
+    border-radius: 50% !important;
+}
+
+/* transição de icone */
+
+.fa-bell {
+    transition: 0.2s ease all;
+}
+
+.fa-bell:hover {
+    color: #fff;
+    transition: 0.2s ease all;
+}
+
+/* configuração */
+
+.configuracao-usuario {
+    margin-top: 5vh;
+}
+
+.configuracao-usuario img {
+    width: 10%;
+}
+
+.nomeEpatente {
+    margin-top: 2vh;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.cargo {
+    margin-bottom: 4vh;
+    text-transform: uppercase;
+    font-size: 8pt;
+    letter-spacing: 1px;
+}
+
+.ativo-verde {
+    color: #28a745;
+}
+
+.menu-esquerdo .a-icones {
+    margin: auto 2px;
+    text-decoration: none;
+    transition: 0.4s ease all;
+}
+
+.menu-esquerdo .a-icones:hover {
+    text-decoration: none;
+    transition: 0.4s ease all;
+    color: rgb(212, 212, 212);
+}
+
+.menu-esquerdo .grupo-icones {
+    background-color: #292929;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.descricao-empresa .titulo, .subtitulo {
+    margin: 2px;
+    text-transform: uppercase;
+    font-size: 8pt;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    /* word-spacing: 1px; */
+}
+
+.descricao-empresa .subtitulo {
+    font-size: 6pt;
+}
+
+.dashboard-numerico {
+    margin-top: 3vh;
+}
+
+.quadro {
+    /* background-color: rgba(29, 29, 29, 0.2); */
+    /* border: 1px solid #ccc; */
+    padding: 2vh;
+    margin: 0vh 1vh;
+    transition: 0.6s ease all;
+}
+
+.quadro:hover {
+    transition: 0.6s ease all;
+    cursor: pointer;
+    box-shadow: 1px 1px 8px rgba(36, 36, 36, 0.3);
+}
+
+.dashboard-numerico p {
+    margin: 0;
+}
+
+.dashboard-numerico .texto, .descricao-curta {
+    font-size: 9pt;
+    font-weight: 200;
+}
+
+.dashboard-numerico .texto {
+    border-bottom: 1px solid #ccc;
+}
+
+.dashboard-numerico .descricao-curta {
+    /* border-top: 1px solid #ccc; */
+}
+
+.dashboard-numerico .estatistica {
+    font-size: 38pt;
+    font-weight: 800;
+}
+
+.cor-texto-verde {
+    color: #28a745;
+}
