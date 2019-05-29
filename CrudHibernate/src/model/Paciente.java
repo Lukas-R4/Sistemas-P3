@@ -18,7 +18,6 @@ public class Paciente {
 	private String nome;
 	private int idade;
 
-	// getters e setters
 	public int getId() {
 		return id;
 	}
