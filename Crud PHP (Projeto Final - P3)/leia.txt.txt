@@ -1,0 +1,22 @@
+Fala Thyago!!!! Boa Noite.
+
+Tô enviando o projeto agora, com alguns dias de atraso kkkk, mas já peço desculpas pela demora. Acontece que a correria do dia a dia e os projetos de outras matérias acaba esgotando nosso tempo demais, e já não temos muito. Mas na medida do possível, fiz um crud simples e espero que tenha atendido os requisitos.
+
+Essa interface de login é uma interface própria do laravel(Auth), que não sei se é aceitável kkkk, mas usei ela e inseri o crud dentro utilizando os mesmos padrões da interface.
+
+utilizei:
+
+composer require barryvdh/laravel-ide-helper
+php artisan ide-helper:generate
+php artisan make:migrate
+php artisan config:cache
+
+E algumas configurações no ".env", como o próprio servidor do banco e o servidor de email... ALIÁS!!!! tentei configurar o password recovery, fiz conta no gmail e tal e tá mandando o link de recuperação e criando o token (que inclusive fica listado no bd). porém quando recebe no email e clica no link de recuperação ele manda pra esse link:
+
+http://localhost/password/reset/0b60367a31bbd52d865c2a86232b2e544db0890cbfda55b5bffd1bf52a52a691?email=lucas93.rodrigues%40gmail.com
+
+e daí dá page not found (404).
+
+Se após"http://localhost (inserir a porta aqui, no caso ":8000")" O redirecionamento e feito. Tentei mas não consegui configurar pra mandar o link já com o localhost + a porta 8000...
+
+Mas é isso! valeu.
